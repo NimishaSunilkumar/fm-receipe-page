@@ -1,0 +1,148 @@
+@font-face{
+    font-family: outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: youngserif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+ h1,h2{
+    font-family: youngserif;
+    color: hsl(14, 45%, 36%);
+    letter-spacing: 0.05rem;
+    margin: 20px;
+ }
+p,li{
+    color:hsl(30, 10%, 34%) ;
+    line-height: 1.6;
+
+}
+ol,ul{
+    padding-left: 30px;
+}
+  li{
+    margin-top: 0.5rem;
+  }
+  p{
+    font-size: 16px;
+  }  
+.main{
+    max-width: 900px;
+    
+    margin-inline: auto;
+     background-color: hsl(0, 0%, 100%);
+     padding-left: 20px;
+     margin-bottom: 10px;
+     padding-right: 20px;   
+     padding-top: 20px;
+     padding-bottom: 20px; 
+}
+
+.main img{
+    max-width: 100%;
+   border-radius: 1rem;
+   padding: auto;
+  
+}
+.main h1{
+    color: hsl(24, 5%, 18%);
+}
+.description article h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+  
+   
+}
+.description article ul{
+    padding-left: 50px;
+}
+.description article li{
+    color: hsl(332, 51%, 32%);
+    padding-left: 15px;
+    
+
+}
+.description article li span{
+    color: hsl(30, 10%, 34%);
+    
+
+}
+
+
+.description article{
+    background-color: hsl(330, 100%, 98%)   ;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.ingredients ul li{
+    color:hsl(14, 45%, 36%);
+}
+.ingredients ul span{
+    color:hsl(30, 10%, 34%) ;
+}
+.instructions {
+    margin-top: 20px;
+    padding:30px;
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin-bottom: 20px;
+}
+
+.instructions li{
+   
+    color: hsl(14, 45%, 36%);
+}
+.instructions span{
+  color: hsl(30, 10%, 34%);
+  
+}
+.instructions li::marker{
+    font-weight: bold;
+}
+.nutrition{
+    padding: 20px;
+    text-align: left;
+}
+.nutrition p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.NUTRI-TABLE .item {
+    padding:5px 7px;
+    display: flex;
+    border-bottom:1px solid hsl(30, 18%, 87%);
+    margin-bottom: 20px; 
+    
+    
+}
+.NUTRI-TABLE .item .amount{
+    color:hsl(14, 45%, 36%); 
+    font-weight: bold;
+    padding-left: 14px;
+    
+}
+.NUTRI-TABLE .item *{
+    width: 50px;
+    margin-right: auto;
+}
+.NUTRI-TABLE .item:last-child{
+    border-bottom: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a
+ { color: hsl(228, 45%, 44%); 
+}
